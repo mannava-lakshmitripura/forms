@@ -1,0 +1,67 @@
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.scrollable-form {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 15px;
+  z-index: 99999;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.p-invalid {
+  border: 1px solid red;
+}
+
+.calendar-input {
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.dropdown-container {
+  background-color: lightgrey;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.calendar-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.p-dropdown-panel {
+  max-height: 100px !important; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.p-dropdown-item {
+  background-color: lightgrey !important;
+}
